@@ -4,7 +4,8 @@ from pydantic import BaseModel
 from pyit600.gateway import IT600Gateway
 import os
 
-from __version__ import __version__
+import __init__
+__version__ = __init__.__version__
 
 # Configuration from environment (required)
 GATEWAY_HOST = os.getenv("SALUS_GATEWAY_HOST")
