@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/hearmyego/salus-bridge/compare/v0.1.1...v0.1.2) (2026-01-20)
+
+
+### Bug Fixes
+
+* update version handling and remove deprecated file ([#5](https://github.com/hearmyego/salus-bridge/issues/5)) ([7cfe4f9](https://github.com/hearmyego/salus-bridge/commit/7cfe4f950ffe29384ad5c2373a26717a558df9cd))
+
 ## [0.1.1](https://github.com/hearmyego/salus-bridge/compare/v0.1.0...v0.1.1) (2026-01-20)
 
 
