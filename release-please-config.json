@@ -7,7 +7,8 @@
         {
           "type": "generic",
           "path": "app/__version__.py",
-          "glob": false
+          "glob": false,
+          "content": "__version__ = \"${version}\"\n"
         }
       ]
     }
