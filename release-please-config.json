@@ -6,7 +6,7 @@
       "extra-files": [
         {
           "type": "generic",
-          "path": "app/main.py",
+          "path": "app/__version__.py",
           "glob": false
         }
       ]

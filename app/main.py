@@ -4,6 +4,8 @@ from pydantic import BaseModel
 from pyit600.gateway import IT600Gateway
 import os
 
+from __version__ import __version__
+
 # Configuration from environment (required)
 GATEWAY_HOST = os.getenv("SALUS_GATEWAY_HOST")
 GATEWAY_EUID = os.getenv("SALUS_GATEWAY_EUID")
@@ -32,7 +34,7 @@ async def lifespan(app: FastAPI):
 app = FastAPI(
     title="Salus Bridge",
     description="REST API bridge for Salus iT600 heating system",
-    version="0.0.1",
+    version=__version__,
     lifespan=lifespan,
 )
 
