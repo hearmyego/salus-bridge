@@ -1,0 +1,11 @@
+services:
+            salus-bridge:
+                        build: .
+                        container_name: salus-bridge
+                        restart: unless-stopped
+                        ports:
+                                    - '8000:8000'
+                        env_file:
+                                    - .env
+                        # Use host network if you have issues reaching the gateway
+                        # network_mode: host

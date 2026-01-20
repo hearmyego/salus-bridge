@@ -1,0 +1,12 @@
+services:
+            salus-bridge:
+                        image: ghcr.io/hearmyego/salus-bridge:latest
+                        container_name: salus-bridge
+                        restart: unless-stopped
+                        ports:
+                                    - '8000:8000'
+                        environment:
+                                    - SALUS_GATEWAY_HOST=192.168.1.100 # Your gateway IP address
+                                    - SALUS_GATEWAY_EUID=001E5E09XXXXXXXX # EUID from bottom of gateway
+                        # Use host network if you have issues reaching the gateway
+                        # network_mode: host
