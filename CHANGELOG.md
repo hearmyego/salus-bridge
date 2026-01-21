@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/hearmyego/salus-bridge/compare/v0.1.2...v0.1.3) (2026-01-21)
+
+
+### Bug Fixes
+
+* enable release-please to update version numbers ([#7](https://github.com/hearmyego/salus-bridge/issues/7)) ([8599341](https://github.com/hearmyego/salus-bridge/commit/859934140964bf2f54af5a6e4c9684c1915f2637))
+
 ## [0.1.2](https://github.com/hearmyego/salus-bridge/compare/v0.1.1...v0.1.2) (2026-01-20)
 
 
