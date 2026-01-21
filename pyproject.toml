@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "salus-bridge"
+version = "0.1.2"
+description = "REST API bridge for Salus iT600 heating system"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi",
+  "uvicorn[standard]",
+  "pyit600",
+  "pydantic",
+  "async_timeout<5.0",
+]
+authors = [{ name = "Michael Brandt" }]
+license = { text = "MIT" }
